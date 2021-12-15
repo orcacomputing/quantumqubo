@@ -47,5 +47,5 @@ Two specific applications of ORCA's QUBO solver are provided in the `application
 
 In this toolkit, the user specifies the input state, and the corresponding photonic circuit and the number of trainable parameters are determined automatically. As an example, if the user specifies an input state |1110>, then the corresponding circuit diagram for a single-loop PT-Series is illustrated in the following figure, where each input line corresponds to a consecutive time mode and each crossing is a programmable beam splitter. There are 4 trainable parameters, and 5 possible output time modes. The empty first mode corresponds to the initial vacuum state in the PT-Series.
 
-<img align="center" src="resources/circuit.png" width="400">
+<img align="center" src="resources/circuit.png" width="500">
 
