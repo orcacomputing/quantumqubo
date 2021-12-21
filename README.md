@@ -1,9 +1,11 @@
 [![checks](https://github.com/orcacomputing/quantumqubo/actions/workflows/tests.yml/badge.svg)](https://github.com/orcacomputing/quantumqubo/actions/workflows/tests.yml)
 # PT-Series Simulator and QUBO solver
 
+Welcome to ORCA Computing's python simulation toolkit for the PT-Series time bin interferometer! This repository accompanies our paper [Certain properties and applications of shallow bosonic circuits](https://arxiv.org/abs/2112.09766). 
+
 ### PT-Series Overview
 
-Welcome to ORCA Computing's python simulation toolkit for the PT-Series time bin interferometer! Orca's PT-Series consists of a train of optical pulses that interfere with each other via programmable beam splitters located within one or more fibre loops, as in the following illustration.
+Orca's PT-Series consists of a train of optical pulses that interfere with each other via programmable beam splitters located within one or more fibre loops, as in the following illustration.
 
 <img align="center" src="resources/tbi.png" width="600">
 
@@ -23,14 +25,6 @@ pip install .
 ```
 from the root folder. This command installs the modules minimally required to run the core functions of this repository. The notebooks in the `applications_notebooks` folder require additional modules specified in `setup.py`. Detailed specifications for a virtual environment that can be used to run all the functionalities in this repository can be found in `requirements.txt`.
 
-### Testing
-
-The test suite can be run with the following commands:
-```
-pip install pytest
-pytest
-```
-
 ### How to use this toolkit
 
 Examples of how this toolkit can be used can be found as Jupyter notebooks in the `tutorial_notebooks` folder. We currently provide 2 examples:
@@ -49,3 +43,21 @@ In this toolkit, the user specifies the input state, and the corresponding photo
 
 <img align="center" src="resources/circuit.png" width="500">
 
+### Testing
+
+The tests can be run with the following commands:
+```
+pip install pytest
+pytest
+```
+
+### Citing this work
+
+To cite our work in publications:
+
+    @article{quantumqubo,
+      title={Certain properties and applications of shallow bosonic circuits},
+      author={Bradler, Kamil and Wallner, Hugo},
+      journal={arXiv preprint arXiv:2112.09766},
+      year={2021}
+    }
