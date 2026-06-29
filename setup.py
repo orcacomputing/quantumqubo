@@ -20,7 +20,7 @@ setup(
     python_requires=">=3.7",
     install_requires=[
         'torch',
-        'numpy<1.21,>=1.17',
+        'numpy>=1.24',
         'numba',
         'matplotlib'
     ],
